@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#localVideoContainer, #remoteVideoContainer {
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#chatBox {
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+    width: 300px;
+}
+
+#chatMessages {
+    max-height: 200px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+#chatInput {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#sendButton {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#startButton, #stopButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#stopButton {
+    background-color: #dc3545;
+}
